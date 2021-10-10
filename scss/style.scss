@@ -49,7 +49,7 @@ main{
         align-items: center;
     }
     .main__lists__item{
-        color: $tc;
+        color: $white;
         margin-right: 30px;
         padding-top: 5px;
         font-size: 14px;
@@ -57,12 +57,85 @@ main{
         .select__lists{
             border: none;
             background-color: transparent;
-            color: $tc;
+            color: $white;
             font-size: 14px;
             font-weight: 500;
         }
     }
 }
 .navbar{
-    
+    max-width: $mw;
+    background: #FFFFFF;
+    height: 195px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    .navbar__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo__text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .logo__title{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #0F2438;
+        display: block;
+        }
+        .logo__subtitle{
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            color: $blue;
+        }
+    }
+    .work__time{
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+        .clock__logo{
+            display: inline;
+        }
+        .work__time__title{
+            display: block;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            margin-left: 10px;
+            color: $blue;   
+        }
+        .work__time__subtitle{
+            text-align: right;
+            display: block;
+            margin-left: 10px;
+        }
+    }
+    .location{
+        display: flex;
+        align-items: center;
+        margin-left: px;
+        // .location__title{
+        //     font-weight: 500;
+        //     //font-size: 14px;
+        //     //line-height: 16px;
+        //     color: $blue;
+        // }
+    }
+    .tel__number{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        .btn__tel__number{
+            background-color: transparent;
+            padding-right: 0;
+            border: none;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            color: $blue;
+            cursor: pointer;
+        }
+    }
+}
 }
