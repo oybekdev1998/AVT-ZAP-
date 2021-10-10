@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,12 +12,87 @@
 }
 
 body {
-  max-width: 1920px;
+  max-width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1354px;
+  margin: 0 auto;
 }
 
 main {
-  min-width: 1920px;
+  max-width: 100%;
   background-color: #0F2438;
   height: 36px;
+}
+
+main .main__lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .location-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main__lists__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main__lists__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main__lists__item {
+  color: #fff;
+  margin-right: 30px;
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+main .main__lists__item .select__lists {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */

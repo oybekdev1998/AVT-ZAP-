@@ -1,4 +1,5 @@
 @import '_vars';
+@import '_fonts';
 
 *{
     margin: 0;
@@ -11,9 +12,57 @@
 
 body{
     max-width: $mw;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: $cw;
+    margin: 0 auto;
 }
 main{
-    min-width: $mw;
+    max-width: $mw;
     background-color: $blue;
     height: 36px;
+
+    .main__lists{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .location-select{
+        display: flex;
+        align-items: center;
+    }
+    .main__lists__left{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main__lists__right{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main__lists__item{
+        color: $tc;
+        margin-right: 30px;
+        padding-top: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        .select__lists{
+            border: none;
+            background-color: transparent;
+            color: $tc;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+}
+.navbar{
+    
 }
