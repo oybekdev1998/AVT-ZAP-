@@ -6,6 +6,7 @@
 @import '_banner';
 @import '_card_item';
 @import '_card-group';
+@import '_news-block';
 
 *{
     margin: 0;
@@ -18,7 +19,7 @@
 
 body{
     max-width: $mw;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;  
 }
 li{
     list-style-type: none;

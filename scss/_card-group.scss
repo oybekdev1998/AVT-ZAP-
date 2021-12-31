@@ -112,3 +112,25 @@
   line-height: 26px;
   color: #FFB800;
 }
+.card__btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  .watch_all{
+  width: 187px;
+  height: 49px;
+  background: #FFFFFF;
+  border: 2px solid #005BB9;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #005BB9;
+  padding: 15px 40px;
+  transition: background-color 5ms, color 5ms;
+  }
+  .watch_all:hover{
+    background: #005BB9;
+    color: #fff;
+
+  }
+}
