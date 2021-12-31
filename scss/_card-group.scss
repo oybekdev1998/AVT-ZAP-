@@ -1,0 +1,114 @@
+.card__group{
+  .btn__group{
+    margin-top: 70px;
+    .btn__group_item{
+      border: 2px solid #005BB9;
+      box-sizing: border-box;
+      border-radius: 6px;
+      background: #fff;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+      color: #005BB9;
+      padding: 16px 32px;
+      margin-right: 20px;
+      
+    }
+    .btn__group_item:hover{
+      cursor: pointer;
+      
+    }
+    .btn__group_item:focus{
+      background: #005BB9;
+      color: #fff;
+    }
+  }
+  .card__group_items{
+    width: 316px;
+    height: 418px;
+    margin-top: 30px;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.15));
+    .card__group_content{
+      .testimonial{
+        margin-top: 15px;
+        img{
+          display: inline;
+        }
+        .img_span{
+          display: inline;
+          font-size: 14px;
+          line-height: 16px;
+          color: #FFB800;
+        }
+        .testimonial_number{
+          display: inline;
+          font-size: 14px;
+          line-height: 16px;
+          color: #B0B0B0;
+          margin-left: 10px;
+        }
+      }
+      .card__img_name{
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        color: #0A1A2C;
+      }
+      .card__group_price{
+        margin-top: 45px;
+        font-size: 13px;
+        line-height: 15px;
+        color: #000000;
+        a{
+          font-size: 13px;
+          line-height: 15px;
+          text-decoration-line: underline;
+          color: #005BB9;
+        }
+      }
+      .card__group_btns{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .card__group_btn{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 20px;
+          width: 160px;
+          height: 49px;
+          border: none;
+          background: #005BB9;
+          border-radius: 6px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          color: #FFFFFF;
+          img{
+            margin-right: 5px;
+            transform: translateY(-3px);
+          }
+        }
+        .card__group_btn:hover{
+          cursor: pointer;
+        }
+        img{
+          margin-left: 20px;
+          transform: translateY(10px);
+        }
+      }
+    }
+  }
+}
+.card__group_cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row: 10px;
+}
+.card__group_price.number{
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFB800;
+}

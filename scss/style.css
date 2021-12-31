@@ -671,6 +671,153 @@ main .main__lists__item .select__lists {
           transform: translateX(20px);
 }
 
+.card__group .btn__group {
+  margin-top: 70px;
+}
+
+.card__group .btn__group .btn__group_item {
+  border: 2px solid #005BB9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #005BB9;
+  padding: 16px 32px;
+  margin-right: 20px;
+}
+
+.card__group .btn__group .btn__group_item:hover {
+  cursor: pointer;
+}
+
+.card__group .btn__group .btn__group_item:focus {
+  background: #005BB9;
+  color: #fff;
+}
+
+.card__group .card__group_items {
+  width: 316px;
+  height: 418px;
+  margin-top: 30px;
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.15));
+}
+
+.card__group .card__group_items .card__group_content .testimonial {
+  margin-top: 15px;
+}
+
+.card__group .card__group_items .card__group_content .testimonial img {
+  display: inline;
+}
+
+.card__group .card__group_items .card__group_content .testimonial .img_span {
+  display: inline;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFB800;
+}
+
+.card__group .card__group_items .card__group_content .testimonial .testimonial_number {
+  display: inline;
+  font-size: 14px;
+  line-height: 16px;
+  color: #B0B0B0;
+  margin-left: 10px;
+}
+
+.card__group .card__group_items .card__group_content .card__img_name {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #0A1A2C;
+}
+
+.card__group .card__group_items .card__group_content .card__group_price {
+  margin-top: 45px;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.card__group .card__group_items .card__group_content .card__group_price a {
+  font-size: 13px;
+  line-height: 15px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #005BB9;
+}
+
+.card__group .card__group_items .card__group_content .card__group_btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.card__group .card__group_items .card__group_content .card__group_btns .card__group_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  width: 160px;
+  height: 49px;
+  border: none;
+  background: #005BB9;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.card__group .card__group_items .card__group_content .card__group_btns .card__group_btn img {
+  margin-right: 5px;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.card__group .card__group_items .card__group_content .card__group_btns .card__group_btn:hover {
+  cursor: pointer;
+}
+
+.card__group .card__group_items .card__group_content .card__group_btns img {
+  margin-left: 20px;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.card__group_cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-row: 10;
+  grid-row: 10px;
+}
+
+.card__group_price.number {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFB800;
+}
+
 * {
   margin: 0;
   padding: 0;
