@@ -1,0 +1,168 @@
+#footer{
+  margin-top: 120px;
+  width: 100%;
+  height: 408px;
+  background: #0C1A2A;
+  .footer__items{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .catalog{
+    margin-top: 36px;
+    .catalog_title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+    }
+    .catalog__items{
+      .catalog_item{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 15px;
+      }
+    }
+  }
+  .rubrikator{
+    margin-top: 36px;
+    .rubrikator_title{ 
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      color: #868DAC;
+    }
+    .rubrikator__items{
+      .rubrikator_item{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 15px;
+      }
+    }
+  }
+  .information{
+    margin-top: 36px;
+    width: 275px;
+    .information_title{
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      color: #868DAC;
+    }
+    .information__items{
+      .information_item{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 15px;
+      }
+    }
+    .cards{
+      .cards_title{
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-top: 45px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .contacts{
+    margin-top: 36px;
+    .contact_address{
+      width: 470px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .contact{
+      .contact_title{
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+      }
+      .contact_number{
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-top: 12px;
+      }
+    }
+    .address{
+      .address_title{
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+      }
+      .address_name{
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-top: 12px;
+      }
+    }
+    .back_request{
+      margin-top: 23px;
+      font-size: 18px;
+      line-height: 21px;
+      color: #858CAB;
+      .forma{
+        color: #FFFFFF;
+        margin-left: 23px;
+
+      }
+    }
+    .podpiska{
+      margin-top: 23px;
+      font-size: 18px;
+      line-height: 21px;
+      color: #858CAB;
+      cursor: pointer;
+    }
+    .podpiska_email{
+      .podpiska_input{
+        margin-top: 20px;
+        padding: 10px 135px 10px 17px;
+        border: 1px solid #203246;
+        box-sizing: border-box;
+        border-radius: 6px 0px 0px 6px;
+        background: transparent;
+        font-size: 16px;
+        line-height: 19px;
+        color: #ADBDD1;
+        outline: none;
+      }
+      .podpiska_btn{
+        border: none;
+        margin-left: -5px;
+        width: 177px;
+        height: 40px;
+        left: 1460px;
+        background: #005BB9;
+        border-radius: 0px 6px 6px 0px;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+      }
+    }
+    .podpiska_img{
+      margin-top: 25px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      img{
+        margin-left: 55px;
+        cursor: pointer;
+      }
+    }
+  }
+  .auther{
+    margin-left: 165px;
+    margin-top: 30px;
+    color: #fff;
+  }
+}

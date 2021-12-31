@@ -7,6 +7,7 @@
 @import '_card_item';
 @import '_card-group';
 @import '_news-block';
+@import '_footer';
 
 *{
     margin: 0;
@@ -26,6 +27,7 @@ li{
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 .container{
     max-width: $cw;
